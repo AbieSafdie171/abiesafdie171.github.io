@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="leetcode-entry">
+  <h1>{{ page.title }}</h1>
+  <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
+  <img src="{{ page.image }}" alt="{{ page.title }}" class="leetcode-image" />
+  <div class="leetcode-content">
+    {{ content }}
+  </div>
+</div>
