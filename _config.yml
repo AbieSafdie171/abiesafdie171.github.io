@@ -150,7 +150,8 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/abiesafdie171.github.io"
+url: "https://abiesafdie171.github.io"
 
 # ------------ The following options are not recommended to be modified ------------------
 
