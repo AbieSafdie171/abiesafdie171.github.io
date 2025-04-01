@@ -1,3 +1,7 @@
+# About this Repo
+
+This is a repo for my personal website. I used the chirpy starter jekyll theme. Below is there README
+
 # Chirpy Starter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
