@@ -172,6 +172,8 @@ collections:
     sort_by: order
   leetcode:
     output: true
+  projects:
+    output: true
 
 defaults:
   - scope:

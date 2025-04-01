@@ -1,0 +1,17 @@
+---
+layout: page
+icon: fas fa-folder-open
+order: 2
+---
+
+<div class="projects-overview">
+  <h1>My Projects</h1>
+  <ul>
+    {% assign sorted_projects = site.projects | sort: "date" | reverse %}
+    {% for project in sorted_projects %}
+      <li>
+        <a href="{{ project.url | relative_url }}">{{ project.date | date: "%B %d, %Y" }} - {{ project.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
